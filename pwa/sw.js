@@ -1,4 +1,4 @@
-const CACHE = 'envi-shell-v9-water-badge';
+const CACHE = 'envi-shell-v11-email-settings';
 const FILES = ['index.html','style.css','metrics.js','app.js','interface.js','history.js','install.js','icon.svg','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES))));
 self.addEventListener('activate', event => event.waitUntil((async () => {
